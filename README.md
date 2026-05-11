@@ -49,6 +49,27 @@ brew install matplotplusplus
 brew install gnuplot
 ```
 
+### Instalacion en Windows
+
+Requisitos:
+- Visual Studio 2022 con C++ (MSVC)
+- CMake 3.20 o superior
+- Git
+- vcpkg
+
+Pasos recomendados (PowerShell):
+```powershell
+git clone https://github.com/microsoft/vcpkg.git
+cd vcpkg
+./bootstrap-vcpkg.bat
+./vcpkg install matplotplusplus:x64-windows gnuplot:x64-windows
+```
+
+Al configurar CMake, agrega la ruta de vcpkg para que encuentre Matplot++:
+```bash
+cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE="C:/ruta/a/vcpkg/scripts/buildsystems/vcpkg.cmake"
+```
+
 
 ##  Uso del sistema
 

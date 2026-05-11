@@ -4,7 +4,7 @@ Sistema de rankings y estadísticas de jugadores de videojuegos desarrollado en 
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 GamerRank permite a los jugadores registrarse, llevar un historial de sus partidas y consultar su posición en rankings dinámicos frente a otros jugadores. El sistema calcula automáticamente estadísticas de rendimiento y las compara contra el promedio global, generando un diagnóstico personalizado para cada jugador.
 
@@ -97,7 +97,7 @@ Al iniciar, el sistema solicita un **username**. Si ya existe, carga los datos d
 
 ---
 
-## 👥 Equipo
+## Equipo
 
 | Nombre | Matrícula | Grupo |
 |--------|-----------|-------|
